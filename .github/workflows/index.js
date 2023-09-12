@@ -1,4 +1,4 @@
-let time = document.getElementById("UTCTime");
+let time = document.getElementById("currentUTCTime");
 
 setInterval(() => {
 
@@ -18,4 +18,4 @@ var day = today.getDay();
 
 var dayList = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-document.getElementById("currentDayOfWeek").innerHTML = dayList[day];
+document.getElementById("currentDayOfTheWeek").innerHTML = dayList[day];
